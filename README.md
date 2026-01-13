@@ -31,9 +31,7 @@ npm run dev
 npm install  
 npm run dev
 
-## משתני סביבה
 
-ראו קובצי .env בצד השרת והלקוח.
 
 ## הרשאות
 
