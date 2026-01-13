@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Dark mode via .dark class */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Brand theme tokens */
+@theme {
+  --color-brand-navy: #223161;
+  --color-brand-gold: #faba00;
+}
+
+/* Hide scrollbar for thumbnails strip */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
